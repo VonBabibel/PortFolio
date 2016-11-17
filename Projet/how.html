@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Port Folio</title>
+    <link href="css/how.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>a{text-decoration:none}</style>
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    
+</head>
+<body>
+    <div id="background">   
+   <div>
+    <div class="SBS">
+        <div id="Logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div id="Nav">
+            <nav>
+                <a href="index.html">Home</a>
+                .
+                <a href="me.html">Me</a>
+                .
+                <a href="how.html">How</a>
+                .
+                <a href="work.html">Work</a>
+           </nav>
+        </div>
+        <div class="Contact1">
+            <button onclick="myFunction()" class="ContactButton">Contact</button>
+                  <div id="myDropdown" class="Contact">
+                    <form id="contact" method="post" action="envoi.php">
+                    <p>
+                        <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" tabindex="1" />
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                            <input type="text" id="email" name="email" tabindex="2"/>
+                    </p>
+                    <p>
+                        <label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea>
+                    </p>
+         
+                    <p>
+                        <button id="Envoyer">Envoyer</button>
+                    </p>
+            </form>
+                  </div>
+        </div>
+    </div>
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   
+   <div>
+       <div class="Box">
+          2010/2011
+          <br>
+           Lycée Déodat de Séverac, Toulouse.
+           <br>
+           Seconde Généraliste 
+       </div>
+       <div class="Box">
+          2011/2013
+          <br>
+           Lycée Jacques Decours, Paris.
+           <br>
+           Première S.
+       </div>
+       <div class="Box">
+          2013/2014
+          <br>
+           Cours Clapeyron, Paris.
+           <br>
+           Terminale S-SVT.
+       </div>
+       <div class="Box">
+          2014/2015
+          <br>
+           Université Paris Sud, Orsay.
+           <br>
+           1ére Année IUT de Chimie.
+       </div>
+       <div class="Box">
+          2015/2016
+          <br>
+           Université Paris 13, Villetaneuse.
+           <br>
+           1ére Année Licence Information-Communication.
+       </div>
+       <div class="Box">
+         2016/2017
+          <br>  
+           Ingésup, Paris.
+           <br>
+           1ére Année Bachelor en Informatique, Architecture Informatique et systèmes d'Informations.
+       </div>
+   </div>
+    </div>
+    
+    <br>
+    
+    <footer>
+        &copy;VincentHebrard
+    </footer>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    
+</body>
+</html>

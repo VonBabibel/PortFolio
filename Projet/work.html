@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Port Folio</title>
+    <link href="css/work.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>a{text-decoration:none}</style>
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    
+</head>
+<body>
+   <div id="background">
+       <div>
+    <div class="SBS">
+        <div id="Logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div id="Nav">
+            <nav>
+                <a href="index.html">Home</a>
+                .
+                <a href="me.html">Me</a>
+                .
+                <a href="how.html">How</a>
+                .
+                <a href="work.html">Work</a>
+           </nav>
+        </div>
+        <div class="Contact1">
+            <button onclick="myFunction()" class="ContactButton">Contact</button>
+                  <div id="myDropdown" class="Contact">
+                    <form id="contact" method="post" action="envoi.php">
+                    <p>
+                        <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" tabindex="1" />
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                            <input type="text" id="email" name="email" tabindex="2"/>
+                    </p>
+                    <p>
+                        <label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea>
+                    </p>
+         
+                    <p>
+                        <button id="Envoyer">Envoyer</button>
+                    </p>
+            </form>
+                  </div>
+        </div>
+    </div>
+   </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+       <div id="Text">
+           <H1><strong>Here is a list of the work Vincent worked on/is currently working on <br> / <br> <i>Voici une liste des travaux sur lesquels Vincent a travaillé/travail actuellement</i></strong></H1>
+        </div>
+        <div id="Box">
+            <div id="BoxBootstrap"><a href="https://github.com/VonBabibel/1rstTryBootstrap">_> Bootstrap First Try</a>
+            </div>
+            <div id="BoxVelo"><a href="https://github.com/VonBabibel/ProjetVelo">_> Projet Velo</a>
+            </div>
+            <div id="BoxRetro"><a href="https://github.com/VonBabibel/ProjetRetro">_> Projet Retro</a>
+            </div>
+            <div id="BoxPortfolio"><a href="https://github.com/VonBabibel/PortFolio">_> Port Folio</a>
+            </div>
+        </div>
+   </div>
+   
+   <br>
+   
+   <footer>
+        &copy;VincentHebrard
+    </footer>
+   
+   <script type="text/javascript" src="js/index.js"></script>
+   
+</body>
+</html>
